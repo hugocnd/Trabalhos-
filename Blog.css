@@ -1,0 +1,629 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+.header1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 8.3vh;
+  background: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 99;
+  position: absolute;
+  top: 160px;
+}
+
+.imagemfundodiv {
+  background-image: url(ImagemBLOG/banner-2.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 98.5vh;
+  position: absolute;
+  top: -160px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 {
+  margin-top: 520px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.div2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -100px;
+  gap: 20px;
+}
+
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -100px;
+}
+
+.div4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -90px;
+}
+
+.div7 {
+  display: flex;
+  justify-content: center;
+}
+
+.div8 {
+  display: flex;
+  justify-content: center;
+}
+
+.div9 {
+  background-color: #04091e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 130px;
+  gap: 120px;
+}
+
+.imagemfundodiv::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: brightness(65%);
+  background: rgba(0, 20, 80, 0.2);
+}
+
+.logo {
+  display: flex;
+  margin-left: -180px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+nav svg {
+  fill: white;
+  width: 1.7%;
+  margin-left: 100px;
+}
+
+ul {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 12px;
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+ul a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
+.homeamarelo2 {
+  color: white;
+  transition: 0.5s;
+}
+
+.homeamarelo2:hover {
+  color: #fcdc00;
+  transition: 0.5s;
+}
+
+.homeamarelo {
+  color: #fcdc00;
+}
+
+.dudediv {
+  height: 400px;
+  width: 800px;
+  background-color: transparent;
+  text-align: center;
+  z-index: 100;
+  margin-top: 400px;
+}
+
+.dudediv p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.dudediv a {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.Dude {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.explorediv {
+  background-color: #ffffff;
+  color: black;
+  padding: 11px 37px;
+  text-align: center;
+  font-weight: 600;
+  z-index: 99;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+}
+
+.explorediv article {
+  font-size: 15px;
+  color: #222222;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.div1 img {
+  margin-top: 350px;
+}
+
+.transparente {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 85%;
+  height: 175px;
+  position: relative;
+  top: -200px;
+  left: 26px;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.transparente:hover {
+  background-color: rgba(231, 193, 22, 0.5);
+  width: 85%;
+  height: 175px;
+  position: relative;
+  top: -200px;
+  left: 26px;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.transparente span {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 60px;
+  position: relative;
+  top: 55px;
+}
+
+.traço {
+  width: 190px;
+  height: 1px;
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 60px;
+}
+
+.transparente p {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.Food {
+  color: black;
+  font-size: larger;
+  width: 150px;
+  position: relative;
+  right: 170px;
+}
+.div2 img {
+  right: 180px;
+  position: relative;
+}
+
+.Food article {
+  margin-top: 30px;
+}
+
+.Food span {
+  color: #fcdc00;
+}
+
+.Food svg {
+  fill: #222222;
+  width: 10%;
+  left: 120px;
+}
+
+.svg1 {
+  position: relative;
+  top: -40px;
+}
+
+.svg2 {
+  position: relative;
+  top: -75px;
+  padding-right: 20px;
+}
+
+.svg3 {
+  position: relative;
+  top: -105px;
+}
+
+.svg4 {
+  position: relative;
+  top: -115px;
+}
+.Food article {
+  font: 300 14px / 21px "Poppins", sans-serif;
+  color: #222222;
+}
+
+.p1 {
+  padding-top: 20px;
+}
+.p2 {
+  position: relative;
+  top: -35px;
+}
+.p3 {
+  position: relative;
+  top: -68px;
+}
+.p4 {
+  position: relative;
+  top: -98px;
+}
+
+.div3 h4 {
+  font-family: sans-serif;
+  font-size: larger;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.div3 p {
+  line-height: 24px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #777777;
+  padding-bottom: 20px;
+}
+
+.Astronomy {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 70px;
+}
+
+.explorediv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9ff;
+  color: #ebebeb;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  font-weight: 400;
+  z-index: 99;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.4s;
+  margin-bottom: 40px;
+}
+
+.explorediv2:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcdc00;
+  transition: 0.4s;
+  color: #ebebeb;
+  text-align: center;
+  width: 140px;
+  height: 40px;
+  font-weight: 400;
+  z-index: 99;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.explorediv2 a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.searchpost {
+  width: 20%;
+  height: 240vh;
+  border: solid 1px black;
+  position: absolute;
+  left: 1200px;
+  margin-top: -100px;
+}
+
+.btnfollow {
+  color: black;
+  background-color: #fcdc00;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  transition: 0.5s;
+  margin-bottom: 80px;
+}
+
+.btnfollow:hover {
+  color: black;
+  background-color: #fcdc00;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: sans-serif;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.img-container:hover img {
+  transform: scale(1.05);
+}
+
+.img-container2 {
+  overflow: hidden;
+}
+
+.img-container2 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.img-container2:hover img {
+  transform: scale(1.05);
+}
+
+.img-container3 {
+  overflow: hidden;
+}
+
+.img-container3 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.img-container3:hover img {
+  transform: scale(1.05);
+}
+
+.img-container4 {
+  overflow: hidden;
+}
+
+.img-container4 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.img-container4:hover img {
+  transform: scale(1.05);
+}
+
+.img-container5 {
+  overflow: hidden;
+}
+
+.img-container5 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.img-container5:hover img {
+  transform: scale(1.05);
+}
+
+.img-container6 {
+  overflow: hidden;
+}
+
+.img-container6 img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.img-container6:hover img {
+  transform: scale(1.05);
+}
+
+.aboutme {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-left: 210px;
+}
+
+.aboutme h4 {
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.aboutme p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.aboutme svg {
+  fill: #777777;
+  width: 13px;
+}
+
+.aboutme span {
+  color: #fcdc00;
+}
+
+.Newsletter {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Newsletter h4 {
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.Newsletter p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 450px;
+  height: 40px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  border: transparent;
+  padding-left: 15px;
+}
+.Newsletter svg {
+  width: 15px;
+  fill: black;
+  border: transparent;
+}
+
+.Newsletter button {
+  height: 40px;
+  width: 40px;
+  background-color: #fcdc00;
+  border: transparent;
+  cursor: pointer;
+  position: absolute;
+}
+
+.FollowMe {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.FollowMe h4 {
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.FollowMe p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+.FollowMe svg {
+  fill: #cccccc;
+  width: 3%;
+  transition: 0.4s;
+}
+
+.FollowMe:hover svg {
+  fill: #fcdc00;
+  transition: 0.4s;
+  width: 3%;
+}
+
+.FollowMesvg2 {
+  fill: #cccccc;
+  width: 20%;
+}
+
+.svg2 {
+  fill: #cccccc;
+  width: 0.8%;
+  position: relative;
+  top: 51px;
+  right: 400px;
+  transition: 0.4s;
+}
+
+.svg2:hover {
+  fill: #fcdc00;
+  width: 0.8%;
+  position: relative;
+  top: 51px;
+  right: 400px;
+  transition: 0.4s;
+}
